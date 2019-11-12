@@ -1,0 +1,261 @@
+What is a Data Lake?
+A data lake is a centralized repository to store all the structured and unstructured data. The real advantage is of a data lake is, it is possible to store data as-is where you can immediately start pushing data from different systems.
+These data could be in CSV files, Excel, Database queries, Log files & etc. could be stored in the data lake with the associated metadata without having to first structure the data.
+
+Once the data is available in the data lake over a time period, it’s possible to process the data later to run different types of analytics and big data processing for data visualization. It is also possible to use the data from the data lake for machine learning and deep learning tools for better-guided decisions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data lakes have brought new possibilities and extra transformational capabilities to enterprises to represent their data in a uniform and consumable way in a readily available manner.
+However, with an increasing risks of data lakes transforming to swamps and silos, it is important to define a usable data lake. One thing is clear when opting for data lake for your enterprise - it’s all about how it’s managed.
+To help data management professionals get the most from data lakes, let’s look into the best practices for building an efficient data which they’re looking for.
+Rising Era of Data Lakes
+The challenges in storage flexibility, resource management, data protection gave rise to use of cloud based data lake.
+As already detailed in our blog- What is a Data Lake - The Basics, data lakes refer to a central repository of storing all structured, semi-structured and unstructured data in a single place.
+Hadoop file system (HDFS), a distributed file system, created the first version of data lake. With the increased popularity of data lakes, organizations face a bigger challenge of maintaining an infinite data lake. If the data in a lake is not well curated, it may flood it with random information difficult to manage and consume, leading to a data swamp.
+Keeping Data Lakes Relevant
+Data lakes have to capture data from the Internet of Things (IoT), social media, customer channels, and external sources such as partners and data aggregators, in a single pool. There is a constant pressure to develop business value and organizational advantage from all these data collections.
+Data swamps can negate the task of data lakes and can make it difficult to retrieve and use data.
+Here are best practices to keeping the data lake efficient and relevant at all times.
+ 
+1. Understanding Business Problem, Allow Relevant Data
+First and foremost, start with an actual business problem and think to answer the question why should a data lake be built?
+Having a clear objective in mind as to why is data lake is required, helps in remaining focussed and works well to get the data job done, quickly and easily.
+A common misconception that people have is that they think data lake and database are the same. The basics of a data lake should be clear and should be rightly implemented for the right use cases. It’s important to be sure about what all a data lake can do and what it can’t.
+The practice of collecting data without having a clear goal in mind might make the existence of data irrelevant. A well-organized data lake can get easily transformed into a data swamp when companies don’t set parameters about the kinds of data they want to gather and why.
+A data most important to a department in an organization might not be relevant to another department. In case of such conflicts over what kinds of data are most useful to a company at a given time, bringing everyone on the same page about when, why and how to acquire data would be crucial.
+Companies leaders should adopt future-oriented mindsets for data collection.
+Making clearly defined goals about data usage helps prevent overeagerness when collecting the information.
+ 
+2. Ensuring Correct Metadata For Search
+It’s important for every bit of data to have information about it (metadata) in a data lake. The act of creating metadata is quite common among enterprises as a way to organize their data and prevent a data lake from turning into a data swamp.
+It acts as a tagging system to help people search for different kinds of data. In a scenario where there is no metadata, people accessing the data may run into a problematic scenario where they may not know how to search for information.
+3. Understand the Importance of Data Governance
+Data lakes should clearly define the way data should be treated, handled, how long it should be retained and more.
+Excellent data governance is what equips your organisation to maintain a high level of data quality throughout the entire data lifecycle.
+The absence of rules stipulating how to handle the data might lead to data getting dumped in one place with no thought on how long it is required and why. It is important to assign roles to give designated people access to and responsibility for data.
+The access control permissions will help users, as per their roles, find data and optimize queries, with people assigned responsibility of governing data, and reducing redundancies.
+Making data governance a priority as soon as companies start collecting data is crucial, to ensure data has a systematic structure and management principles applied to it.
+ 
+4. Mandatory Automated Process
+An organization needs to apply automation to maintain a data lake, before it gets converted to a data swamp. Automation is becoming increasingly crucial for data lakes and can help them achieve the identified goals in all phases as mentioned below:
+•	Ingestion Phase
+A data lake should not create development bottlenecks for data ingestion pipelines and rather allow any type of data to be loaded seamlessly in a consistent manner.
+Early ingestion and late processing of data lakes will allow integrated data to be available quickly for operations, reporting, and analytics. However, there may be a lag between data updating and new insights being produced from the ingested data.
+Change Data Capture (CDC) automates the process of data ingestion and makes it much easier for a data store to accept changes within a database. CDC ensures that it only updates the changed records of the database instead of reloading the entire tables. Though CDC ensures correct record update, those records need to be re-merged to the main database.
+•	Data Querying Phase
+The databases running on Hive or NoSQL need to be streamlined to process data sets as large as what the data lake might hold. The data visualization is required for the user to know what exactly to query.
+The workaround for this is to use OLAP cubes or data models generated within memory, scalable to the level of use in a data lake.
+•	Data Preparation Phase
+When data in the cloud is not arranged and cleaned and is lumped with no one having an idea of what is linked to what, and what types of insights the business is looking for, it leads to confusion and issues for automating processing of raw data. They need to have clear goals in mind for what the data lake is supposed to look at.
+•	Uniform Operations Across Platforms
+Data lakes must be able to generate insights through ad hoc analytics efficiently to make the business more competitive and to drive customer adoption. This can be achieved with the creation of data pipelines to allow data scientists to run their queries on data sets. They should be able to use different data sets, and compare the results over a series of iterations to make better judgment calls. The lake is likely to be accessing data from multiple cloud sources and hence these pipelines must be able to play well with these different source materials.
+ 
+5. Data Cleaning Strategy
+A data lake can become data swamp unintentionally, unless enterprises adhere to strict plans for regularly cleaning their data.
+The data is of no use if it has errors, or there are any redundancies. It loses its accountability and causes companies to reach incorrect conclusions, and might take years or even months before someone realizes that the data is not accurate, if they ever do.
+Enterprises need to take a further step and decide what specific things they should regularly do to keep the data lake clean. It can be overwhelming to restore a data lake which has converted a swamp.
+ 
+6. Flexibility & Discovery with Quick Data Transformation
+A data lake should allow for flexible data refinement policies, auto data discovery and provide an agile development environment.
+Many data lakes are deployed to handle large volumes of web data and can capture large data collections.
+Out of the box transformations that are ready for use should be implemented in the native environment. One should be able to get accurate statistics and load control data for better insights into processes that can provide an operational dashboard using the statistics.
+ 
+7. Enhancing Security and Operations Visibility
+User authentication, user authorization, data in motion encryption and data at rest encryption is needed to keep your data safe, to securely manage data in the data lake.
+The data lake solution should be able to provide real-time operations monitoring and debug capabilities and notify with real-time alerts on new data arrivals. In order to extract the most value out of your data, you need to be able to adapt quickly and integrate your data seamlessly.
+ 
+8. Make Data Lake Multipurpose
+A single lake should typically fulfill multiple architectural purposes, such as data landing and staging, archiving for detailed source data, sandboxing for analytics data sets, and managing operational data sets.
+Being multipurpose, it may need to be distributed over multiple data platforms, each with unique storage or processing characteristics.
+Today, data lake has come on strong in recent years and fits today's data and the way many users want to organize and use their data. Its ability to ingest data to be used for operations and analytics as enterprise’s requirements for business analytics and operations evolve.
+Are you interested in exploring how data lakes can be best utilized for your enterprise? Contact us to get the conversation started.
+
+
+
+
+
+
+Innovation
+In a large enterprise, perhaps the most powerful impact of a data lake is the enablement of innovation. We have seen many multi-billion dollar organizations struggling to establish a culture of data-driven insight and innovation. They get bogged down by the structural silos that isolate departmental or divisionally-divided data stores, and which are mirrored by massive organizational politics around data owner-ship. While far from trivial to implement, an enterprise data lake provides the necessary foundation to clear away the enterprise-wide data access problem at its roots. The door to previously unavailable exploratory analysis and data mining opens up, enabling completely new possibilities.
+Speed
+In today’s dynamic business environment, new data consumption requirements and use cases emerge extremely rapidly. By the time a requirements document is prepared to reflect requested changes to data stores or schemas, users have often moved on to a different or even contradictory set of schema changes. In contrast, the entire philosophy of a data lake revolves around being ready for an unknown use case. When the source data is in one central lake, with no single controlling structure or schema embedded within it, supporting a new additional use case can be much more straightforward.
+Self Service
+What is the average time between a request made to IT for a report and eventual delivery of a robust working report in your organization? In far too many cases, the answer is measured in weeks or even months. With a properly designed data lake and well-trained business community, one can truly enable self-service Business Intelligence. Allow the business people access to what ever slice of the data they need, letting them develop the reports that they want, using any of a wide range of tools. IT becomes the custodian of the infrastructure and data on the cloud, while business takes responsibility for exploring and mining it.
+ 
+Figure 1: Data Lake Storage Layers
+Design Physical Storage
+The foundation of any data lake design and implementation is physical storage. The core storage layer is used for the primary data assets. Typically it will contain raw and/or lightly processed data. The key considerations when evaluating technologies for cloud-based data lake storage are the following principles and requirements:
+Exceptional scalability
+Because an enterprise data lake is usually intended to be the centralized data store for an entire division or the company at large, it must be capable of significant scaling without running into fixed arbitrary capacity limits.
+High durability
+As a primary repository of critical enterprise data, a very high durability of the core storage layer allows for excellent data robustness without resorting to extreme high-availability designs.
+Support for unstructured, semi-structured and structured data
+One of the primary design considerations of a data lake is the capability to store data of all types in a single repository.
+Independence from fixed schema
+The ability to apply schema upon read, as needed for each consumption purpose, can only be accomplished if the underlying core storage layer does not dictate a fixed schema.
+Separation from compute resources
+The most significant philosophical and practical advantage of cloud-based data lakes as compared to “legacy” big data storage on Hadoop is the ability to decouple storage from compute, enabling independent scaling of each.
+Given the requirements, object-based stores have become the de facto choice for core data lake storage. AWS, Google and Azure all offer object storage technologies.
+ 
+READ NOW
+How a technology company reduced operating expenses by 50% on AWS + 17 other cloud transformation stories.
+The point of the core storage is to centralize data of all types, with little to no schema structure imposed upon it. However, a data lake will typically have additional “layers” on top of the core storage. This allows the retention of the raw data as essentially immutable, while the additional layers will usually have some structure added to them in order to assist in effective data consumption such as reporting and analysis. Figure 1 represents additional layers being added on top of the raw storage layer.
+A specific example of this would be the addition of a layer defined by a Hive metastore. In a layer such as this, the files in the object store are partitioned into “directories” and files clustered by Hive are arranged within to enhance access patterns depicted in Figure 2.
+Much more could be written about this one example; suffice to say that many additional layering approaches can be implemented depending on the desired consumption patterns.
+ 
+Figure 2: Partitioned Object Storage with Hive Clustering
+Choose File Format
+Introduction
+People coming from the traditional RDBMS world are often surprised at the extraordinary amount of control that we as architects of data lakes have over exactly how to store data. We, as opposed to an RDBMS storage engine, get to determine an array of elements such as file sizes, type of storage (row vs. columnar), degree of compression, indexing, schemas, and block sizes. These are related to the Hadoop-oriented ecosystem of tools commonly used for accessing data in a lake.
+File Size
+A small file is one which is significantly smaller than the Hadoop file system (HDFS) default block size, which is 128 MB. If we are storing small files, given the large data volumes of a data lake, we will end up with a very large number of files. Every file is represented as an object in the cluster’s name node’s memory, each of which occupies 150 bytes, as a rule of thumb. So 100 million files, each using a block, would use about 30 gigabytes of memory. The takeaway here is that Hadoop ecosystem tools are not optimized for efficiently accessing small files. They are primarily designed for large files, typically an even multiple of the block size.
+Apache ORC
+ORC is a prominent columnar file format designed for Hadoop workloads. The ability to read, decompress, and process only the values that are required for the current query is made possible by columnar file formatting. While there are multiple columnar formats available, many large Hadoop users have adopted ORC. For instance, Facebook uses ORC to save tens of petabytes in their data warehouse. They have also demonstrated that ORC is significantly faster than RC File or Parquet. Yahoo also uses ORC to store their production data and has likewise released some of their benchmark results.
+Same Data, Multiple Formats
+It is quite possible that one type of storage structure and file format is optimized for a particular workload but not quite suitable for another. In situations like these, given the low cost of storage, it is actually perfectly suitable to create multiple copies of the same data set with different underlying storage structures (partitions, folders) and file formats (e.g. ORC vs Parquet).
+
+ 
+READ THE STORIES
+How these F500 organizations are ensuring security in their highly regulated industries.
+Design Security
+Like every cloud-based deployment, security for an enterprise data lake is a critical priority, and one that must be designed in from the beginning. Further, it can only be successful if the security for the data lake is deployed and managed within the framework of the enterprise’s overall security infrastructure and controls. Broadly, there are three primary domains of security relevant to a data lake deployment:
+•	Encryption
+•	Network Level Security
+•	Access Control
+Encryption
+Virtually every enterprise-level organization requires encryption for stored data, if not universally, at least for most classifications of data other than that which is publicly available. All leading cloud providers support encryption on their primary objects store technologies (such as AWS S3) either by default or as an option. Likewise, the technologies used for other storage layers such as derivative data stores for consumption typically offer encryption as well.
+Encryption key management is also an important consideration, with requirements typically dictated by the enterprise’s overall security controls. Options include keys created and managed by the cloud provider, customer-generated keys managed by the cloud-provider, and keys fully created and managed by the customer on-premises.
+The final related consideration is encryption in-transit. This covers data moving over the network between devices and services. In most situations, this is easily configured with either built-in options for each service, or by using standard TLS/SSL with associated certificates.
+Network Level Security
+Another important layer of security resides at the network level. Cloud-native constructs such as security groups, as well as traditional methods including network ACLs and CIDR block restrictions, all play a part in implementing a robust “defense-in-depth” strategy, by walling off large swaths of inappropriate access paths at the network level. This implementation should also be consistent with an enterprise’s overall security framework.
+Access Control
+This focuses on Authentication (who are you?) and Authorization (what are you allowed to do?). Virtually every enterprise will have standard authentication and user directory technologies already in place; Active Directory, for example. And every leading cloud provider supports methods for mapping the corporate identity infrastructure onto the permissions infrastructure of the cloud provider’s resources and services. While the plumbing involved can be complex, the roles associated with the access management infrastructure of the cloud provider (such as IAM on AWS) are assumable by authenticated users, enabling fine-grained permissions control over authorized operations. The same is usually true for third-party products that run in the cloud such as reporting and BI tools. LDAP and/or Active Directory are typically supported for authentication, and the tools’ internal authorization and roles can be correlated with and driven by the authenticated users’ identities.
+Establish Governance
+Typically, data governance refers to the overall management of the availability, usability, integrity, and security of the data employed in an enterprise. It relies on both business policies and technical practices. Similar to other described aspects of any cloud deployment, data governance for an enterprise data lake needs to be driven by, and consistent with, overarching practices and policies for the organization at large.
+In traditional data warehouse infrastructures, control over database contents is typically aligned with the business data, and separated into silos by business unit or system function. However, in order to derive the benefits of centralizing an organization’s data, it correspondingly requires a centralized view of data governance.
+Even if the enterprise is not fully mature in its data governance practices, it is critically important that at least a minimum set of controls is enforced such that data cannot enter the lake without important meta-data (“data about the data”) being defined and captured. While this depends in part on technical implementation of a metadata infrastructure as described in the earlier “Design Physical Storage” section, data governance also means that business processes determine the key metadata to be required. Similarly, data quality requirements related to concepts such as completeness, accuracy, consistency and standardization are in essence business policy decisions that must first be made, before baking the results of those decisions into the technical systems and processes that actually carry out these requirements.
+The technologies used to implement data governance policies in a data lake implementation are typically not individual products or services. The better approach is to expect the need to embed the observance of data governance requirements into the entire data lake infrastructure and tools.
+Enable Metadata Cataloging and Search
+Key Considerations
+Any data lake design should incorporate a metadata storage strategy to enable the business users to be able to search, locate and learn about the datasets that are available in the lake. While traditional data warehousing stores a fixed and static set of meaningful data definitions and characteristics within the relational storage layer, data lake storage is intended to flexibly support the application of schema at read time. However, this means a separate storage layer is required to house cataloging metadata that represents technical and business meaning. While organizations sometimes simply accumulate contents in a data lake without a metadata layer, this is a recipe certain to create an unmanageable data swamp instead of a useful data lake. There are a wide range of approaches and solutions to ensure that appropriate metadata is created and maintained. Here are some important principles and patterns to keep in mind.
+Enforce a metadata requirement
+The best way to ensure that appropriate metadata is created is to enforce its creation. Ensure that all methods through which data arrives in the core data lake layer enforce the metadata creation requirement, and that any new data ingestion routines must specify how the meta-data creation requirement will be enforced.
+Automate metadata creation
+Like nearly everything on the cloud, automation is the key to consistency and accuracy. Wherever possible, design for automatic metadata creation extracted from source material.
+Prioritize cloud-native solutions
+Wherever possible, use cloud-native automation frameworks to capture, store and access metadata within your data lake. The core attributes that are typically cataloged for a data source are listed in Figure 3.
+ 
+Figure 3: An AWS Suggested Architecture for Data Lake Metadata Storage
+An AWS-Based Solution Idea
+An example of a simple solution has been suggested by AWS, which involves triggering an AWS Lambda function when a data object is created on S3, and which stores data attributes into a DynamoDB data-base. The resultant DynamoDB-based data catalog can be indexed by Elasticsearch, allowing a full-text search to be performed by business users.
+AWS Glue provides a set of automated tools to support data source cataloging capability. AWS Glue can crawl data sources and construct a data catalog using pre-built classifiers for many popular source formats and data types, including JSON, CSV, Parquet, and more. As such, this offers potential promise for enterprise implementations.
+We recommend that clients make data cataloging a central requirement for a data lake implementation.
+ 
+Figure 4: Data Lake Layers and Consumption Patterns
+Access and Mine the Lake
+Schema on Read
+‘Schema on write’ is the tried and tested pattern of cleansing, transforming and adding a logical schema to the data before it is stored in a ‘structured’ relational database. However, as noted previously, data lakes are built on a completely different pattern of ‘schema on read’ that prevents the primary data store from being locked into a predetermined schema. Data is stored in a raw or only mildly processed format, and each analysis tool can impose on the dataset a business meaning that is appropriate to the analysis context. There are many benefits to this approach, including enabling various tools to access the data for various purposes.
+Data Processing
+Once you have the raw layer of immutable data in the lake, you will need to create multiple layers of processed data to enable various use cases in the organization. These are examples of the structured storage described earlier. Typical operations required to create these structured data stores will involve:
+•	Combining different datasets
+•	Denormalization
+•	Cleansing, deduplication, householding
+•	Deriving computed data fields
+Apache Spark has become the leading tool of choice for processing the raw data layer to create various value-added, structured data layers.
+Data Warehousing
+For some specialized use cases (think high performance data warehouses), you may need to run SQL queries on petabytes of data and return complex analytical results very quickly. In those cases, you may need to ingest a portion of your data from your lake into a column store platform. Examples of tools to accomplish this would be Google BigQuery, Amazon Redshift or Azure SQL Data Warehouse.
+Interactive Query and Reporting
+There are still a large number of use cases that require support for regular SQL query tools to analyze these massive data stores. Apache Hive, Apache Presto, Amazon Athena, and Impala are all specifically developed to support these use cases by creating or utilizing a SQL-friendly schema on top of the raw data.
+Data Exploration and Machine Learning
+Finally, a category of users who are among the biggest beneficiaries of the data lake are your data scientists, who now can have access to enterprise-wide data, unfettered by various schemas, and who can then explore and mine the data for high-value business insights. Many data scientists tools are either based on or can work alongside Hadoop-based platforms that access the data lake.
+Conclusion
+When designed and built well, a data lake removes data silos and opens up flexible enterprise-level exploration and mining of results. The data lake is one of the most essential elements needed to harvest enterprise big data as a core asset, to extract model-based insights from data, and nurture a culture of data-driven decision making.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. What type of data are you working with?
+As we’ve described in the previous section, data lakes are best used to store streaming data, which has several unique characteristics:
+•	Unstructured or semi-structured
+•	Constantly being generated, in small bursts (e.g., every time a user sees an ad generates a new record with several dozen fields)
+•	Often accumulates quickly – tens of billions of records ‘weighing’ a total of hundreds of terabytes is a common workload for streaming data
+If you’re working with this type of data, you should definitely consider a data lake – since the costs of structuring and storing it in a relational database will quickly become very prohibitive.
+However, if you’re mostly working with traditional, tabular information – e.g., data generated by financial, CRM or HR systems – you might want to stick to a data warehouse.
+Either way, the two are not mutually exclusive, and you can definitely consider keeping some data in your RDBMS, and use a data lake for sensor or SaaS data that you would like to analyze separately. However, if you don’t have anything that even remotely resembles big or streaming data, a data lake might be overkill.
+2. Do you know exactly what you’ll want to do with the data?
+One of the great things about data lakes is the flexibility they provide when it comes to how the data will eventually be used. In a data warehouse, we would store the data in a certain structure that would best be suited for a specific use case, such as operational reporting; however, the need to structure the data in advance has costs, and could also limit your ability to repurpose the same data for new use cases in the future.
+This brings us back to the core tenet of data lakes: store now, analyze later. If you’re still unsure whether you’ll be launching a machine learning project, or want to provide a higher level of flexibility for your future BI analyses, a data lake could be a good fit. However, if you’re only looking to generate a few predefined reports, a data warehouse would probably get you there faster.
+3. How complex is your data acquisition process?
+Adding new sources to your data warehouse can often be a resource-intensive process. If you’re constantly acquiring new data, particularly from unstructured or semi-structured sources, you might quickly find yourself dealing with serious ETL overhead in order to “cram” this data into a format that your data warehouse can work with.
+If the costs of ingesting data into your data warehouse are becoming prohibitive, especially if this is leading you to consider giving up on some sources altogether, you should consider a data lake – which will allow you to store all the data with minimal overhead, and then extract and transform the data when you want to actually do something with it.
+4. What type of tools and skills exist in your organization?
+Building and maintaining a data lake is not the same as working with databases. If the latter requires some level of DBA / IT to maintain the infrastructure, with the rest being handled by business users (analysts or executives), a data lake would typically require more significant investment in engineering – and specifically in big data engineers, which are in high-demand and difficult to find.
+If you don’t have these skills in your organization, transitioning to a data lake approach might prove difficult. In this case, you should consider sticking to your data warehouse until you manage to hire the prerequisite engineering talent; or use a Data Lake Platform such as Upsolver (where, for full disclosure, I am the CEO and co-founder) to streamline the process of building and managing your cloud data lake, and to eliminate the need to devote extensive engineering resources to the matter.
+5. What is your strategy for data management and governance?
+Both data lakes and data warehouses pose challenges when it comes to governance. In the data warehouse, this challenge would be the need to constantly maintain and manage all the data that’s coming in, and to make sure it is added according to a consistent business logic and data model; whereas data lakes are often criticized as chaotic and impossible to effectively govern. Whichever approach you choose, make sure you have a good way to address these challenges.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Benefits and Risks of using Data Lake:
+Here are some major benefits in using a Data Lake:
+•	Helps fully with product ionizing & advanced analytics
+•	Offers cost-effective scalability and flexibility
+•	Offers value from unlimited data types
+•	Reduces long-term cost of ownership
+•	Allows economic storage of files
+•	Quickly adaptable to changes
+•	The main advantage of data lake is the centralization of different content sources
+•	Users, from various departments, may be scattered around the globe can have flexible access to the data
+Risk of Using Data Lake:
+•	After some time, Data Lake may lose relevance and momentum
+•	There is larger amount risk involved while designing Data Lake
+•	Unstructured Data may lead to Ungoverned Chao, Unusable Data, Disparate & Complex Tools, Enterprise-Wide Collaboration, Unified, Consistent, and Common
+•	It also increases storage & computes costs
+•	There is no way to get insights from others who have worked with the data because there is no account of the lineage of findings by previous analysts
+•	The biggest risk of data lakes is security and access control. Sometimes data can be placed into a lake without any oversight, as some of the data may have privacy and regulatory need
+
+
