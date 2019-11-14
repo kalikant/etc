@@ -6,6 +6,10 @@ Once the data is available in the data lake over a time period, it’s possible 
 
 
 
+Why is Data Lake needed to government?
+
+Government has many departments and most of them works in silos, here silos means that they don’t share data across but it’s been rare situation when one department can take executive level decisions on their own. It means, actually sharing of information across departments are still there in practice but through executives or through traditional way of communication but this process is slow which heavily impacts current government’s core principal “Minimum Government Maximum Governance”. So apparently, it is quite clear    
+
 
 
 
